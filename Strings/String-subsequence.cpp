@@ -13,7 +13,7 @@ bool subseq(string stri, string strj){
             }
         i++;
         }
-        return (j==strj.length());// when all alpha completed t
+    return (j==strj.length());// when all alpha completed t
     }
 
 int main(){

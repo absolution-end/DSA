@@ -3,7 +3,8 @@
 // To check is a string is a permutation or not of each other--> also called anagram
 using namespace std;
 
-bool ana(const string &str1, const string &str2){
+bool ana(string str1, string str2){
+
     if(str1.length()!=str2.length()){
         return false;
     }
