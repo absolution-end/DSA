@@ -4,6 +4,11 @@
 #include<cstring>
 using namespace std;
 
+// #In case you initilaize a character array like below:
+// #char str[] = "Welcome to Gfg";
+// #do pass array size minus 1 or parameter in strlen() function
+// because C++ compiler automatically appends a "\0" at the end of the string    
+
 // here we are reversing the words in the string
 
 int naiveapp(string s){
